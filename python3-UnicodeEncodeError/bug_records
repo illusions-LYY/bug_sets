@@ -1,0 +1,12 @@
+test:
+pytho
+
+>>> import sys
+>>> sys.stdout.encoding
+
+>>> 'UTF-8'   # That's right!
+
+>>> 'ANSI_X3.4-1968' # if you see this, then you'll meet UnicodeEncodeError when Chinese characters output!
+
+fix it!
+Blog:https://blog.csdn.net/AckClinkz/article/details/78538462
